@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/charts.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/fullpage-start.js"></script>
+    <script src="js/bar.js"></script>
+    <script src="js/line.js"></script>
+    <script src="js/radar.js"></script>
+    <script src="js/doughnut.js"></script>
+    <title>FPO</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div id="start" class="section" data-anchor="home">
+        <h1>243 polskie <span class="hlight">kobiety</span></h1>
+      </div>
+
+      <div id="women_data" class="section"  data-anchor="women">
+        <div class="slide" id="women_orientation" data-anchor="orientation">
+          <h1>O różnych upodobaniach</h1>
+          <div id="radar" class="spaced" >
+            <div id="radar_canvas_holder">
+              <canvas id="radar_chart_area" width="500" height="400"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="women_age" data-anchor="age">
+          <h1>Młode</h1>
+          <div id="bar" class="spaced" >
+            <div id="bar_canvas_holder">
+              <canvas id="bar_chart_area" width="500" height="340"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="women_education" data-anchor="education">
+          <h1>Wykształcone</h1>
+          <div id="line" class="spaced" >
+            <div id="line_canvas_holder">
+              <canvas id="line_chart_area" width="500" height="340"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="women_relationship" data-anchor="relationship">
+          <h1>Wyzwolone</h1>
+          <div id="doughnut" class="spaced" >
+            <div id="doughnut_canvas_holder">
+              <canvas id="doughnut_chart_area" width="500" height="400"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fpo_research" class="section" data-anchor="research">
+        <div class="black slide" id="research_question" data-anchor="question">
+          <h1>Jak one <span class="hlight">dochodzą</span>?</h1>
+        </div>
+
+        <div class="slide" id="research_results" data-anchor="results">
+          <h1>Zobacz</h1>
+          <p class="spaced"><a class="btn" href="results.html">wyniki badania</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>.kb</p>
+    </div>
+  </body>
+</html>

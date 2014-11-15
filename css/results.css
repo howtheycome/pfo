@@ -1,0 +1,26 @@
+#research_results_table {
+  margin: 0;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: center;
+}
+
+#research_results_table th {
+  text-align: center;
+  font-weight: bold;
+  background: #c0c0c0;
+  padding: 3px;
+}
+
+.EPO {
+  background-color: rgba(191, 97, 106, 0.1);
+}
+
+.PPO {
+  background-color: rgba(191, 97, 106, 0.5);
+}
+
+.RPO {
+  background-color: rgba(191, 97, 106, 0.9);
+}

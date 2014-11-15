@@ -1,0 +1,4 @@
+#bar_canvas_holder, #radar_canvas_holder, #doughnut_canvas_holder, #line_canvas_holder {
+  width:40%;
+  margin: 0 auto;
+}
